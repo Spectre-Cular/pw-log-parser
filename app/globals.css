@@ -19,3 +19,40 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.app-layout {
+  display: flex;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #333;
+  color: white;
+}
